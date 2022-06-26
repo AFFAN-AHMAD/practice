@@ -36,6 +36,4 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(8080, () => {
-  console.log("server has been started");
-});
+server.listen(8080)
